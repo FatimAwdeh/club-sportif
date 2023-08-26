@@ -1,0 +1,18 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .row img {
+    width: calc(33.33% - 10px);
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+  }

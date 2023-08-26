@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .row img {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .row img {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
